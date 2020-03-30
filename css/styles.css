@@ -1,0 +1,150 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#title {
+    background-color: #1C1919;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Title Image*/
+
+.title-image {
+    width: 50%;
+    position: absolute;
+    right: 20%;
+}
+
+.btn {
+    margin-bottom: 2rem;
+}
+
+/* Featurebutton */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #722f37;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #1C1919;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #1C1919;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 5rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+    }
+}
+
+/* Contact Form Section */ 
+
+#contact {
+    background-color: #1C1919;
+    padding: 10rem;
+    color: #fff;
+    
+}
